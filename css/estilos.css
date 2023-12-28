@@ -1,0 +1,61 @@
+/*
+Paleta de colores: https://coolors.co/f1e9d7-159ea9-757585-c1a452-0a0908
+
+f1e9d7 
+159ea9
+757585
+c1a452
+0a0908
+
+Obtencion de los iconos de las lineas: https://www.reddit.com/r/leagueoflegends/comments/febh4c/request_high_res_icons_of_lane_icons/
+
+Obtencion de las imagenes de items, runas y summoners: https://leagueoflegends.fandom.com/wiki/Summoner_spell_(Wild_Rift)
+
+Obtención de las imagenes de campeones: https://wildrift.leagueoflegends.com/es-mx/champions/
+*/
+
+:root {
+    --blanco: #f1e9d7;
+    --azul: #159ea9;
+    --gris: #757585;
+    --dorado: #c1a452;
+    --negro: #0a0908;
+
+    padding: 1rem;
+}
+
+* {
+    background-color: var(--negro);
+    color: var(--blanco);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div {
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+p {
+    margin-bottom: 0rem!important;
+}
+
+.boton {
+    border-color: var(--gris);
+    background-color: var(--azul);
+    color: var(--blanco);
+    transition-duration: 0.6s;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: var(--dorado);
+    color: var(--negro);
+    border-color: var(--negro);
+}
+
+.runas, .objetos, .tipo_botas, .mejora, .hechizos, .rol {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
